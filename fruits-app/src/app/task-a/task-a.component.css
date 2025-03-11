@@ -1,0 +1,22 @@
+
+
+.chart-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .bar {
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    cursor: pointer;
+    transition: width 1s ease-in-out;
+  }
+  
+  .bar.selected {
+    background-color: #ff9800;
+  }
